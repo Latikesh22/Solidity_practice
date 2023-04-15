@@ -83,6 +83,13 @@ function burn(address _address, uint _value) public {
 This function allows the minter to burn tokens by subtracting _value tokens from the balance of _address and reducing the totalSupply. The require statement ensures that the _address has sufficient balance to burn the specified amount of tokens.
 
 
-## Authors
+# Challenge.sol
+This is a Solidity smart contract called "Challenge" that contains four functions: "add", "sub", "mul", and "div". These functions take in two uint parameters and perform arithmetic operations on them. Each function returns the result of the operation performed. The contract is licensed under the MIT license and uses Solidity version 0.8.0.
+
+# variable.sol
+The contract is named "variable" and has four variables defined within it: an integer named Number, an unsigned integer named "number1", a boolean named "isNumber", and a string named Quote.The contract has four functions defined within it, each of which corresponds to one of the four variables. The "set" functions are used to set the values of the variables, while the "get" functions are used to retrieve the values of the variables.
+The functions are defined as public, which means that anyone can access them. The "memory" keyword is used for the string variable to indicate that it is a temporary variable that is stored only in memory.
+
+## Author
 
 Latikesh Pachpute - @[Latikesh22](https://github.com/Latikesh22)
